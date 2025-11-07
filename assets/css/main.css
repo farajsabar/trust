@@ -19189,7 +19189,7 @@ label {
       padding-right: 0;
     }
 .about-three {
-    padding: 72px 0 0;
+    padding: 0px;
 }
 .about-three__left-text {
   font-size: 18px;
@@ -19403,3 +19403,71 @@ display: inline-block;
   }
 }
 
+
+
+
+
+
+
+
+
+.about-section {
+  font-family: "Poppins", sans-serif;
+  color: #333;
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+}
+@media (max-width: 576px) {
+ .about-section {
+    padding: 0px;
+  }
+}
+
+.about-section h2 {
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+
+.about-intro {
+  font-size: 15px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.tab-buttons {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.tab-btn {
+  background-color: transparent;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  padding: 8px 18px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.tab-btn.active {
+  background-color: #FFE175;
+  color: #000;
+  border-color: #FFE175;
+}
+
+.tab-content {
+  display: none;
+  animation: fadeIn 0.4s ease;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(5px); }
+  to { opacity: 1; transform: translateY(0); }
+}
