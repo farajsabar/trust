@@ -961,6 +961,32 @@ document.addEventListener("DOMContentLoaded", () => { // circle count
 
 
 
+const counters = document.querySelectorAll('.stat-number'); // counter
+const speed = 400; // lower = faster
+
+counters.forEach(counter => {
+  const animate = () => {
+    const value = +counter.getAttribute('data-target');
+    const current = +counter.innerText;
+    const increment = value / speed;
+
+    if (current < value) {
+      counter.innerText = Math.ceil(current + increment);
+      setTimeout(animate, 10);
+    } else {
+      // Add suffix like + or %
+      if (value >= 10000) counter.innerText = "10K+";
+      else if (value === 95) counter.innerText = "95%";
+      else counter.innerText = value + "+";
+    }
+  };
+  animate();
+});
+
+
+
+
+
 
 
 
