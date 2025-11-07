@@ -808,7 +808,16 @@ button.swiper-pagination-bullet {
 
 
 
-
+@media (max-width: 576px) {
+  .hero-side {
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    min-height: 680px !important; /* Adjust as needed */
+    display: flex !important;
+    align-items: center !important;
+  }
+}
 
 
 
