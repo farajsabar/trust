@@ -2075,7 +2075,7 @@ label {
   overflow-y: scroll;
   max-height: calc(100vh - 200px);
   text-align: left;
-  padding: 20px 30px 40px;
+  padding: 20px 30px 20px;
 }
 .off-canvas-menu ul {
   list-style: none;
