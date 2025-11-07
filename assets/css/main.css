@@ -43,6 +43,7 @@ Version: 1.0
 36 Donations CSS
 37 Blog Standard CSS
 ************ TABLE OF CONTENTS ***************/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
 :root {
   --theme-color: #85BF18;
   --theme-shade-color: #99EF68;
@@ -88,8 +89,7 @@ html::-webkit-scrollbar-thumb:active, body::-webkit-scrollbar-thumb:active {
 body {
   color: var(--body-color);
   font-size: var(--body-fz);
-  font-family: var(--dm-sans-font);
-  font-weight: 400;
+font-family: "Montserrat", sans-serif !important;  font-weight: 400;
   -webkit-font-smoothing: antialiased;
 }
 
