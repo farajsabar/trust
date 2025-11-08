@@ -96,7 +96,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: var(--chioary-font-two);
+  /* font-family: var(--chioary-font-two); */
   color: var(--chioary-black);
   margin: 0;
 }

@@ -60,9 +60,9 @@ Version: 1.0
   --white-color: #fff;
   --black-color: #000;
   --hr-color: #000;
-  --outfit-font: "Outfit", sans-serif;
+  /* --outfit-font: "Outfit", sans-serif;
   --dm-sans-font: "DM Sans", sans-serif;
-  --albert-sans-font: "Albert Sans", sans-serif;
+  --albert-sans-font: "Albert Sans", sans-serif; */
   --icon-font: "Font Awesome 6 Pro";
   --body-fz: 16px;
 }
@@ -89,7 +89,8 @@ html::-webkit-scrollbar-thumb:active, body::-webkit-scrollbar-thumb:active {
 body {
   color: var(--body-color);
   font-size: var(--body-fz);
-font-family: "Montserrat", sans-serif !important;  font-weight: 400;
+  font-family: "Montserrat", sans-serif !important;  
+  font-weight: 400;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -153,7 +154,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: var(--outfit-font);
+  /* font-family: var(--outfit-font); */
   color: var(--title-color);
   font-weight: 700;
   margin-bottom: 20px;
@@ -392,7 +393,7 @@ label {
   }
 }
 .odometer.odometer-auto-theme, .odometer.odometer-theme-default {
-  font-family: inherit;
+  /* font-family: inherit; */
   line-height: inherit;
 }
 
@@ -591,7 +592,7 @@ label {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  font-family: var(--albert-sans-font);
+  /* font-family: var(--albert-sans-font); */
   font-weight: 600;
   font-size: 17px;
   line-height: 100%;
@@ -1328,7 +1329,7 @@ label {
   color: rgba(56, 56, 56, 0.8);
 }
 .header-info .header-info-content p {
-  font-family: var(--outfit-font);
+  /* font-family: var(--outfit-font); */
   font-weight: 500;
   font-size: 18px;
   line-height: 100%;
@@ -1392,7 +1393,7 @@ label {
   color: rgba(255, 255, 255, 0.8);
 }
 .header-info-2 .header-info-content p {
-  font-family: var(--outfit-font);
+  /* font-family: var(--outfit-font); */
   font-weight: 500;
   font-size: 18px;
   line-height: 100%;
@@ -1456,7 +1457,7 @@ label {
   color: rgba(255, 255, 255, 0.8);
 }
 .header-info-3 .header-info-content p {
-  font-family: var(--outfit-font);
+  /* font-family: var(--outfit-font); */
   font-weight: 500;
   font-size: 18px;
   line-height: 100%;
@@ -2245,7 +2246,7 @@ label {
 }
 
 .footer-widget .w-title {
-  font-family: var(--outfit-font);
+  /* font-family: var(--outfit-font); */
   font-weight: 600;
   font-size: 24px;
   line-height: 36px;
@@ -2363,7 +2364,7 @@ label {
   backdrop-filter: blur(2px);
   border-radius: 53px;
   padding: 10px 24px;
-  font-family: var(--albert-sans-font);
+  /* font-family: var(--albert-sans-font); */
   font-weight: 600;
   font-size: 17px;
   line-height: 100%;
@@ -2456,7 +2457,7 @@ label {
   backdrop-filter: blur(2px);
   border-radius: 53px;
   padding: 10px 24px;
-  font-family: var(--albert-sans-font);
+  /* font-family: var(--albert-sans-font); */
   font-weight: 600;
   font-size: 17px;
   line-height: 100%;
@@ -2946,7 +2947,7 @@ label {
   justify-content: center;
   gap: 7px;
   flex-wrap: wrap;
-  padding: 0px 0px 0px 230px;
+  padding: 0px 0px 0px 105px;
 }
 .top-bar-content .text-wrap {
   display: flex;
@@ -4958,7 +4959,7 @@ label {
   margin-bottom: 12px;
 }
 .hero-content-5 .title h1 {
-  font-family: "Philosopher";
+  /* font-family: "Philosopher"; */
   text-align: center;
   text-transform: uppercase;
   font-style: normal;
@@ -5384,7 +5385,7 @@ label {
   padding: 10px;
   background: none;
   color: var(--theme-color-3);
-  font-family: var(--albert-sans-font);
+  /* font-family: var(--albert-sans-font); */
   font-weight: 600;
   font-size: 15px;
   line-height: 18px;
@@ -6284,7 +6285,7 @@ label {
   flex: none;
 }
 .contact-info h3 {
-  font-family: var(--outfit-font);
+  /* font-family: var(--outfit-font); */
   font-weight: 600;
   font-size: 24px;
   line-height: 36px;
@@ -6599,7 +6600,7 @@ label {
   line-height: 1;
   font-size: 17px;
   height: 60px;
-  font-family: var(--albert-sans-font);
+  /* font-family: var(--albert-sans-font); */
   box-shadow: inset 0px 4px 11px rgba(255, 255, 255, 0.2), inset -1px -4px 23.1px rgba(0, 24, 25, 0.28);
 }
 .form-1 input::-webkit-input-placeholder {
@@ -6828,7 +6829,7 @@ label {
   padding: 10px;
   background: none;
   color: var(--theme-color-3);
-  font-family: var(--albert-sans-font);
+  /* font-family: var(--albert-sans-font); */
   font-weight: 600;
   font-size: 15px;
   line-height: 18px;
@@ -7727,7 +7728,7 @@ label {
   }
 }
 .card-number-3 h1 {
-  font-family: var(--outfit-font);
+  /* font-family: var(--outfit-font); */
   font-style: normal;
   font-weight: 600;
   font-size: 120px;
@@ -9503,7 +9504,7 @@ label {
   left: 20px;
 }
 .project-card .thumb .tag p {
-  font-family: var(--albert-sans-font);
+  /* font-family: var(--albert-sans-font); */
   font-weight: 600;
   font-size: 14px;
   line-height: 100%;
@@ -9735,7 +9736,7 @@ label {
   z-index: 10;
 }
 .project-card-2 .thumb .tag p {
-  font-family: var(--albert-sans-font);
+  /* font-family: var(--albert-sans-font); */
   font-weight: 600;
   font-size: 14px;
   line-height: 100%;
@@ -11549,7 +11550,7 @@ label {
   gap: 67px;
 }
 .volunteer-detail-content .details-wrap .info p {
-  font-family: var(--albert-sans-font);
+  /* font-family: var(--albert-sans-font); */
   font-weight: 500;
   font-size: 18px;
   line-height: 30px;
@@ -11557,7 +11558,7 @@ label {
   min-width: 105px;
 }
 .volunteer-detail-content .details-wrap .info span {
-  font-family: var(--dm-sans-font);
+  /* font-family: var(--dm-sans-font); */
   font-weight: 400;
   font-size: 18px;
   line-height: 30px;
@@ -13415,7 +13416,7 @@ label {
   transition: all 0.3s linear 0s;
 }
 .service-card .service-top .number span {
-  font-family: var(--outfit-font);
+  /* font-family: var(--outfit-font); */
   font-weight: 600;
   font-size: 24px;
   line-height: 36px;
@@ -13663,7 +13664,7 @@ label {
 }
 .service-card-3 .i-shape h1 {
   margin-bottom: 0;
-  font-family: var(--outfit-font);
+  /* font-family: var(--outfit-font); */
   font-weight: 600;
   font-size: 100px;
   line-height: 82px;
@@ -15150,7 +15151,7 @@ label {
   margin-bottom: 10px;
 }
 .about-us-section-3 .tab-content .reward h5 {
-  font-family: var(--outfit-font);
+  /* font-family: var(--outfit-font); */
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
@@ -15327,7 +15328,7 @@ label {
   }
 }
 .card-number h1 {
-  font-family: var(--outfit-font);
+  /* font-family: var(--outfit-font); */
   font-style: normal;
   font-weight: 600;
   font-size: 120px;
@@ -15850,7 +15851,7 @@ label {
   }
 }
 .card-number-2 h1 {
-  font-family: var(--outfit-font);
+  /* font-family: var(--outfit-font); */
   font-style: normal;
   font-weight: 600;
   font-size: 80px;
@@ -16908,7 +16909,7 @@ label {
   display: flex;
   align-items: center;
   gap: 15px;
-  font-family: var(--outfit-font);
+  /* font-family: var(--outfit-font); */
   font-style: normal;
   font-weight: 500;
   font-size: 36px;
@@ -17055,7 +17056,7 @@ label {
   color: #868681;
 }
 .detail-text p b {
-  font-family: var(--albert-sans-font);
+  /* font-family: var(--albert-sans-font); */
   font-weight: 600;
 }
 
@@ -17070,7 +17071,7 @@ label {
   }
 }
 .donation-card h4 {
-  font-family: var(--outfit-font);
+  /* font-family: var(--outfit-font); */
   font-style: normal;
   font-weight: 500;
   font-size: 36px;
@@ -17224,7 +17225,7 @@ label {
   padding: 10px;
   background: none;
   color: var(--theme-color-3);
-  font-family: var(--albert-sans-font);
+  /* font-family: var(--albert-sans-font); */
   font-weight: 600;
   font-size: 15px;
   line-height: 18px;
@@ -17363,7 +17364,7 @@ label {
   padding: 10px;
   background: none;
   color: var(--theme-color-3);
-  font-family: var(--albert-sans-font);
+  /* font-family: var(--albert-sans-font); */
   font-weight: 600;
   font-size: 15px;
   line-height: 18px;
@@ -17534,7 +17535,7 @@ label {
   margin-bottom: 16px;
 }
 .testimonial-wrap .review {
-  font-family: var(--outfit-font);
+  /* font-family: var(--outfit-font); */
   font-weight: 600;
   font-size: 24px;
   line-height: 36px;
@@ -17643,7 +17644,7 @@ label {
 }
 .previous-project .project-content-wrap .project-title h5,
 .next-project .project-content-wrap .project-title h5 {
-  font-family: var(--outfit-font);
+  /* font-family: var(--outfit-font); */
   font-weight: 600;
   font-size: 24px;
   line-height: 36px;
@@ -18023,7 +18024,7 @@ label {
 }
 .detail-sidebar .s-widget-wrap .organizer-info-wrap .name h3 {
   text-align: center;
-  font-family: var(--outfit-font);
+  /* font-family: var(--outfit-font); */
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
@@ -18137,7 +18138,7 @@ label {
   align-items: center;
   gap: 5px;
   justify-content: space-between;
-  font-family: var(--albert-sans-font);
+  /* font-family: var(--albert-sans-font); */
   font-weight: 500;
   font-size: 16px;
   line-height: 22px;
@@ -18306,7 +18307,7 @@ label {
 }
 
 .thank-you-text p {
-  font-family: var(--dm-sans-font);
+  /* font-family: var(--dm-sans-font); */
   font-style: normal;
   font-weight: 400;
   font-size: 17px;
@@ -18323,7 +18324,7 @@ label {
   margin-bottom: 20px;
 }
 .payment-method-form .payment-title h3 {
-  font-family: var(--outfit-font);
+  /* font-family: var(--outfit-font); */
   font-style: normal;
   font-weight: 500;
   font-size: 36px;
@@ -18367,7 +18368,7 @@ label {
   transform: rotate(45deg);
 }
 .payment-method-form .select-payment-method .method label {
-  font-family: var(--dm-sans-font);
+  /* font-family: var(--dm-sans-font); */
   font-style: normal;
   font-weight: 400;
   font-size: 17px;
@@ -18426,7 +18427,7 @@ label {
   margin-bottom: 20px;
 }
 .payment-method-form form .form-bottom p {
-  font-family: var(--albert-sans-font);
+  /* font-family: var(--albert-sans-font); */
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -18435,7 +18436,7 @@ label {
   margin-bottom: 0;
 }
 .payment-method-form form .impact-text p {
-  font-family: var(--albert-sans-font);
+  /* font-family: var(--albert-sans-font); */
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -18470,7 +18471,7 @@ label {
   border-radius: 100%;
 }
 .sponsor-info-wrap .name h3 {
-  font-family: var(--outfit-font);
+  /* font-family: var(--outfit-font); */
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
@@ -18493,7 +18494,7 @@ label {
   display: inline-flex;
   align-items: center;
   gap: 10px;
-  font-family: var(--albert-sans-font);
+  /* font-family: var(--albert-sans-font); */
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -18533,7 +18534,7 @@ label {
   border-radius: 10px;
 }
 .notice p {
-  font-family: var(--dm-sans-font);
+  /* font-family: var(--dm-sans-font); */
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -18604,7 +18605,7 @@ label {
   border: 1px solid rgba(0, 69, 64, 0.1);
   border-radius: 88px;
   background: transparent;
-  font-family: var(--dm-sans-font);
+  /* font-family: var(--dm-sans-font); */
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -18681,7 +18682,7 @@ label {
   margin-bottom: 12px;
 }
 .blog-card-4 .content .blog-info p {
-  font-family: var(--albert-sans-font);
+  /* font-family: var(--albert-sans-font); */
   color: var(--body-color);
   margin-bottom: 0;
 }
@@ -18712,7 +18713,7 @@ label {
   color: var(--theme-color-3);
 }
 .blog-card-4 .content .text p {
-  font-family: "DM Sans";
+  /* font-family: "DM Sans"; */
   font-style: normal;
   font-weight: 400;
   font-size: 17px;
@@ -18746,7 +18747,7 @@ label {
   margin-bottom: 12px;
 }
 .blog-card-5 .content .blog-info p {
-  font-family: var(--albert-sans-font);
+  /* font-family: var(--albert-sans-font); */
   color: var(--body-color);
   margin-bottom: 0;
 }
@@ -18801,7 +18802,7 @@ label {
   color: var(--theme-color-3);
 }
 .blog-card-5 .content .text p {
-  font-family: "DM Sans";
+  /* font-family: "DM Sans"; */
   font-style: normal;
   font-weight: 400;
   font-size: 17px;
@@ -18832,7 +18833,7 @@ label {
   gap: 20px;
 }
 .blog-tags .tag-wrap p {
-  font-family: var(--dm-sans-font);
+  /* font-family: var(--dm-sans-font); */
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -18846,7 +18847,7 @@ label {
   gap: 8px;
 }
 .blog-tags .tag-wrap .tags button {
-  font-family: var(--dm-sans-font);
+  /* font-family: var(--dm-sans-font); */
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -19144,7 +19145,7 @@ label {
     text-transform: uppercase;
     transform: rotate(0deg);
     height: 140px !important;
-    font-family: var(--chioary-font-two);
+    /* font-family: var(--chioary-font-two); */
 }
 
 .about-three__count {
@@ -19172,7 +19173,7 @@ label {
     font-size: 32px;
     font-weight: 700;
     line-height: 42px;
-    font-family: var(--chioary-font-two);
+    /* font-family: var(--chioary-font-two); */
     color: var(--chioary-white);
     top: -3px;
     position: relative;
@@ -19361,7 +19362,7 @@ display: inline-block;
 .stats-section {
   padding: 40px 0;
   text-align: center;
-  font-family: "Poppins", sans-serif;
+  /* font-family: "Poppins", sans-serif; */
 }
 
 .container {
@@ -19415,15 +19416,15 @@ display: inline-block;
 
 
 .about-section {
-  font-family: "Poppins", sans-serif;
   color: #333;
   max-width: 800px;
-  margin: 50px auto;
+  /* margin: 50px auto; */
   padding: 20px;
 }
 @media (max-width: 576px) {
  .about-section {
     padding: 0px;
+    margin: 50px auto;
   }
 }
 
