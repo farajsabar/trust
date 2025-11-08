@@ -438,7 +438,8 @@ label {
   margin-bottom: 30px;
 }
 .section-top-2 .left .common-subtitle span {
-  font-size: 40px;
+  font-size: 34px;
+  font-weight: 500;
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .common-title {
@@ -611,7 +612,8 @@ label {
 }
 @media (min-width: 1200px) and (max-width: 1399px) {
   .e-primary-btn {
-    font-size: 16px;
+    font-size: 14px;
+    font-weight: 500;
   }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -1096,7 +1098,7 @@ label {
 @media (min-width: 1200px) and (max-width: 1399px) {
   .main-menu-2 ul li a {
     padding: 4px 10px;
-    font-size: 16px;
+    font-size: 14px;
   }
 }
 .main-menu-2 ul .has-dropdown {
@@ -2948,12 +2950,14 @@ label {
   gap: 7px;
   flex-wrap: wrap;
   padding: 0px 0px 0px 105px;
+  font-size: 14px;
 }
 .top-bar-content .text-wrap {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 5px;
+  font-size: 14px;
 }
 @media (max-width: 767px) {
   .top-bar-content .text-wrap {
@@ -3402,7 +3406,7 @@ label {
 }
 @media (min-width: 1200px) and (max-width: 1399px) {
   .hero-content-1 .title h1 {
-    font-size: 74px;
+    font-size: 48px;
     line-height: 1.1;
   }
 }
@@ -9473,6 +9477,8 @@ label {
 }
 .project-card.active .thumb .content .details-btn, .project-card:hover .thumb .content .details-btn {
   bottom: 20px;
+    font-size: 12px;
+  font-weight: 500;
 }
 .project-card .thumb {
   position: relative;
@@ -9560,8 +9566,8 @@ label {
   cursor: pointer;
 }
 .project-card .thumb .content h5 {
-  font-weight: 600;
-  font-size: 24px;
+  font-weight: 500;
+  font-size: 20px;
   line-height: 36px;
   color: var(--light-color);
   margin-bottom: 8px;
@@ -9581,11 +9587,14 @@ label {
 .project-card .thumb .content p {
   color: var(--light-color);
   margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 400;
 }
 .project-card .thumb .content .details-btn {
   position: absolute;
   bottom: -100px;
   transition: all 0.3s;
+
 }
 .project-card .thumb .content .join-us {
   margin-top: 15px;
@@ -10037,13 +10046,13 @@ label {
   margin-bottom: 0;
 }
 .section-top-2 .left .common-title h2 {
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 400;
   color: var(--light-color);
   margin-bottom: 0;
   text-align: center;
   padding: 0 98px;
-  line-height: 28px;
+  line-height: 24px;
 }
 @media (max-width: 576px) {
   .section-top-2 .left .common-title h2 {
@@ -19379,17 +19388,18 @@ display: inline-block;
 .stat-item {
   flex: 1;
   min-width: 150px;
+  font-size: 20px;
 }
 
 .stat-number {
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 700;
   color: #111;
   margin-bottom: 5px;
 }
 
 .stat-text {
-  font-size: 14px;
+  font-size: 20px;
   color: #555;
 }
 
@@ -19428,12 +19438,14 @@ display: inline-block;
 }
 
 .about-section h2 {
-  font-size: 26px;
+  font-size: 30px;
   margin-bottom: 10px;
+  font-weight: 500;
 }
 
 .about-intro {
-  font-size: 15px;
+  font-size: 20px;
+  font-weight: 400;
   color: #555;
   margin-bottom: 20px;
 }
@@ -19452,6 +19464,7 @@ display: inline-block;
   padding: 8px 18px;
   cursor: pointer;
   font-size: 14px;
+  font-weight: 500;
   transition: 0.3s;
 }
 
@@ -19464,6 +19477,11 @@ display: inline-block;
 .tab-content {
   display: none;
   animation: fadeIn 0.4s ease;
+}
+.tab-content p{
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
 }
 
 .tab-content.active {
