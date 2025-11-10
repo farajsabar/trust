@@ -2684,6 +2684,7 @@ label {
   font-size: 17px;
   line-height: 28px;
   color: rgba(255, 255, 255, 0.8);
+  text-transform: none;
 }
 
 .footer-section-3 {
@@ -2993,6 +2994,7 @@ label {
   justify-content: center;
   gap: 5px;
   font-size: 14px;
+  text-transform: none;
 }
 @media (max-width: 767px) {
   .top-bar-content .text-wrap {
