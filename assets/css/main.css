@@ -10078,7 +10078,7 @@ label {
   width: 100%;
 }
 .section-top-2 .left .common-subtitle span {
-  color: var(--theme-color-2);
+  color: #222834;
 }
 .section-top-2 .left .common-title {
   margin-bottom: 0;
@@ -10086,7 +10086,7 @@ label {
 .section-top-2 .left .common-title h2 {
   font-size: 18px;
   font-weight: 400;
-  color: var(--light-color);
+  color: #5D5D5D;
   margin-bottom: 0;
   text-align: center;
   padding: 0 98px;
@@ -19409,6 +19409,7 @@ display: inline-block;
 .stats-section {
   padding: 40px 0;
   text-align: center;
+  background-color: #CFCFCF;
 }
 
 .container {
@@ -19685,14 +19686,16 @@ display: inline-block;
 
 
 .events-section {
-  width: 90%;
-  max-width: 1300px;
-  margin: auto;
+  width:auto;
+  /* width: 90%; */
+  /* max-width: 1300px; */
+  /* margin: auto; */
   text-align: center;
   padding: 70px 0;
 }
 
 .events-head h2 {
+  color: #ffffff;
   font-size: 32px;
   font-weight: 600;
   margin-bottom: 10px;
@@ -19700,13 +19703,14 @@ display: inline-block;
 
 .events-head p {
   font-size: 15px;
-  color: #666;
+  color: #ffffff;
   max-width: 650px;
   margin: auto;
 }
 
 .events-container {
   margin-top: 50px;
+  padding: 0 70px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 25px;
