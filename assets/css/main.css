@@ -19716,6 +19716,11 @@ display: inline-block;
   grid-template-columns: repeat(3, 1fr);
   gap: 25px;
 }
+@media (max-width:768px) {
+  .events-container {
+    padding: 0 20px;
+  }
+}
 
 .event-card {
   text-align: left;
