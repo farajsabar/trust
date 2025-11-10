@@ -2240,14 +2240,6 @@ label {
     bottom: -60px;
   }
 }
-@media (max-width: 576px) {
-  .footer-bottom-layout .footer-copyright {
-    font-size: 12px !important;
-  }
-  .footer-bottom-menu ul li a {
-    font-size: 12px !important;
-}
-}
 .footer-bottom-layout .footer-copyright {
   font-weight: 500;
   font-size: 14px;
