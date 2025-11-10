@@ -1019,4 +1019,54 @@ buttons.forEach(btn => {
 
 
 
+		(function(){ //img popup
+			const overlay = document.querySelector('.gallery-overlay');
+			const overlayInner = overlay.querySelector('.gallery-overlay-inner');
+			const overlayImg = overlay.querySelector('.gallery-overlay-img');
+			const closeBtn = overlay.querySelector('.gallery-close');
+			const imgs = document.querySelectorAll('.gallery-item img');
+
+			function open(src, alt){
+				overlayImg.src = src;
+				overlayImg.alt = alt || '';
+				overlay.setAttribute('aria-hidden', 'false');
+				requestAnimationFrame(()=> overlayInner.classList.add('open'));
+				document.body.style.overflow = 'hidden';
+			}
+
+			function close(){
+				overlayInner.classList.remove('open');
+				overlay.setAttribute('aria-hidden', 'true');
+				overlayImg.src = '';
+				document.body.style.overflow = '';
+			}
+
+			imgs.forEach(img => {
+				img.addEventListener('click', () => open(img.currentSrc || img.src, img.alt));
+				img.addEventListener('keydown', e => {
+					if (e.key === 'Enter' || e.key === ' ') open(img.currentSrc || img.src, img.alt);
+				});
+			});
+
+			overlay.addEventListener('click', (e) => {
+				if (!overlayInner.contains(e.target)) close();
+			});
+
+			closeBtn.addEventListener('click', close);
+			overlayImg.addEventListener('click', (e) => e.stopPropagation());
+
+			document.addEventListener('keydown', (e) => {
+				if (e.key === 'Escape' && overlay.getAttribute('aria-hidden') === 'false') close();
+			});
+
+			let startY = null;
+			overlayImg.addEventListener('touchstart', (e) => { startY = e.touches[0].clientY; });
+			overlayImg.addEventListener('touchend', (e) => {
+				if (!startY) return;
+				const endY = e.changedTouches[0].clientY;
+				if (Math.abs(endY - startY) > 80) close();
+				startY = null;
+			});
+		})();
+
 
