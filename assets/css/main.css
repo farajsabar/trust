@@ -19718,7 +19718,7 @@ display: inline-block;
 }
 @media (max-width:768px) {
   .events-container {
-    padding: 0 20px;
+    padding: 0px;
   }
 }
 
