@@ -658,6 +658,8 @@ label {
 }
 @media (min-width: 1200px) and (max-width: 1399px) {
   .e-primary-btn.has-icon {
+    background-color: #ffffff;
+    color: #222834;
     gap: 10px;
   }
 }
