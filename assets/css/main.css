@@ -19624,6 +19624,9 @@ display: inline-block;
   .team-container {
     grid-template-columns: repeat(2, 1fr);
   }
+  .team-section .details-btn1 {
+    margin-bottom: 26px;
+  }
 }
 
 @media (max-width: 600px) {
