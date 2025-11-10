@@ -607,7 +607,7 @@ label {
 }
 @media (min-width: 1400px) and (max-width: 1700px) {
   .e-primary-btn {
-    font-size: 16px;
+    font-size: 12px;
   }
 }
 @media (min-width: 1200px) and (max-width: 1399px) {
@@ -653,6 +653,9 @@ label {
   transition: all 0.3s linear 0s;
 }
 .e-primary-btn.has-icon {
+  border: 1px solid #D9D9D9;
+  background-color: #ffffff;
+  color: #222834;
   padding: 5px 5px 5px 25px;
   gap: 15px;
 }
@@ -670,8 +673,8 @@ label {
   align-items: center;
   justify-content: center;
   flex: none;
-  background: var(--theme-color-3);
-  color: var(--white-color);
+  background: #000000;
+  color: #ffffff;
   border-radius: 100%;
   -webkit-transition: all 0.3s linear 0s;
   -o-transition: all 0.3s linear 0s;
@@ -698,7 +701,7 @@ label {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  width: 15px;
+  width: 12px;
   overflow: hidden;
 }
 @media (min-width: 1200px) and (max-width: 1399px) {
@@ -745,7 +748,7 @@ label {
   transform: translateX(0%) translateY(-50%);
 }
 .e-primary-btn:hover .icon-wrap {
-  background: var(--white-color);
+  background: #FFE175;
   color: var(--theme-color-3);
 }
 .e-primary-btn:hover .icon-wrap .icon i {
@@ -6817,7 +6820,9 @@ label {
   }
 }
 .blog-card .content .title h3 a {
-  color: var(--theme-color-3);
+  font-size: 20px;
+  font-weight: 700;
+  color: #222834;
 }
 .blog-card .content .content-bottom {
   display: flex;
@@ -6839,16 +6844,18 @@ label {
   }
 }
 .blog-card .content .content-bottom .e-primary-btn {
-  color: var(--theme-color-3);
-  background-color: transparent;
-  border: 2px solid rgba(0, 69, 64, 0.1);
+  color: #000000;
+  background-color: #ffffff;
+  border: 1px solid rgba(0, 69, 64, 0.1);
+  font-size: 12px;
+  font-weight: 400;
 }
 .blog-card .content .content-bottom .e-primary-btn:before {
   background-color: var(--theme-color-2);
 }
 .blog-card .content .content-bottom .e-primary-btn .icon-wrap {
-  background-color: var(--theme-color-3);
-  color: var(--theme-color-2);
+  background-color: #000000;
+  color: #ffffff;
 }
 .blog-card .content .social-share {
   display: flex;
