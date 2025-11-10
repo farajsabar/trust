@@ -2242,7 +2242,7 @@ label {
 }
 .footer-bottom-layout .footer-copyright {
   font-weight: 500;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 22px;
   color: #F8F7F0;
 }
@@ -2280,7 +2280,7 @@ label {
 }
 .footer-bottom-layout .footer-bottom-menu ul li a {
   font-weight: 500;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 22px;
   color: #F8F7F0;
 }
@@ -2627,7 +2627,7 @@ label {
 }
 .footer-section-2 .footer-bottom .footer-bottom-layout .footer-bottom-menu ul li:last-child:before {
   content: "";
-  width: 5px;
+  /* width: 5px; */
   height: 5px;
   border-radius: 100%;
   display: inline-flex;
