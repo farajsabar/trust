@@ -1772,9 +1772,10 @@ label {
   z-index: 99;
 }
 
+
 .header-section-1 {
   width: 100%;
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
   z-index: 2;
