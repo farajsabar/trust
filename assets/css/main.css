@@ -6718,6 +6718,7 @@ label {
   overflow: hidden;
 }
 .blog-card .thumb img {
+  width: 100%;
   border-radius: 10px 10px 0 0;
 }
 .blog-card .thumb .category {
