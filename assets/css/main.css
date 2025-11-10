@@ -19628,6 +19628,9 @@ display: inline-block;
 .team-card {
   text-align: left;
 }
+.team-card p {
+  border-top: 2px solid #eee;
+}
 
 .team-card img {
   width: 100%;
@@ -19637,8 +19640,8 @@ display: inline-block;
 }
 
 .team-card h3 {
-  font-size: 17px;
-  font-weight: 600;
+  font-size: 20px;
+  font-weight: 500;
   margin-top: 15px;
 }
 
