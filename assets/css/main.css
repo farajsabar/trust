@@ -6827,8 +6827,8 @@ label {
 }
 @media (max-width: 767px) {
   .blog-card .content .content-bottom {
-    /* flex-direction: column; */
-    align-items: start;
+    /* flex-direction: column;
+    align-items: start; */
     gap: 10px;
   }
 }
