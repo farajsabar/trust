@@ -922,7 +922,12 @@ label {
       padding: 33px 20px !important;
     }
   }
-
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  .header-middle {
+    padding: 32px;
+    /* padding: 20px 12px; */
+  }
+}
 
 @media (min-width: 768px) and (max-width: 991px) {
   .header-bottom-2 {
@@ -1021,12 +1026,7 @@ label {
   /* border-left: 1.5px solid rgba(255, 255, 255, 0.1);
   border-bottom: 1.5px solid rgba(255, 255, 255, 0.1); */
 }
-@media (min-width: 1200px) and (max-width: 1399.98px) {
-  .header-middle {
-    padding: 32px;
-    /* padding: 20px 12px; */
-  }
-}
+
 .header-middle .header-info-wrap {
   display: flex;
   align-items: center;
