@@ -916,8 +916,14 @@ label {
 @media (min-width: 992px) and (max-width: 1199px) {
   .header-bottom-2 {
     padding: 10px 0;
+  }}
+  @media(min-width: 992px) and (max-width: 1199.98px) {
+    .header-middle {
+      padding: 33px 20px !important;
+    }
   }
-}
+
+
 @media (min-width: 768px) and (max-width: 991px) {
   .header-bottom-2 {
     padding: 10px 0;
@@ -1015,9 +1021,10 @@ label {
   /* border-left: 1.5px solid rgba(255, 255, 255, 0.1);
   border-bottom: 1.5px solid rgba(255, 255, 255, 0.1); */
 }
-@media (min-width: 1200px) and (max-width: 1399px) {
+@media (min-width: 1200px) and (max-width: 1399.98px) {
   .header-middle {
-    padding: 20px 12px;
+    padding: 32px;
+    /* padding: 20px 12px; */
   }
 }
 .header-middle .header-info-wrap {
