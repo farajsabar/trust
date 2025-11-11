@@ -921,11 +921,17 @@ label {
     .header-middle {
       padding: 33px 20px !important;
     }
+      .main-menu-2 ul li a {
+    padding: 5px 0.9vw !important;
+  }
   }
 @media (min-width: 1200px) and (max-width: 1399.98px) {
   .header-middle {
-    padding: 32px;
+    padding: 32px !important;
     /* padding: 20px 12px; */
+  }
+  .main-menu-2 ul li a {
+    padding: 5px 1.5vw !important;
   }
 }
 
