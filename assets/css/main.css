@@ -623,7 +623,7 @@ label {
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .e-primary-btn {
-    font-size: 16px !important;
+    font-size: 16px;
     line-height: 20px;
     gap: 8px;
     padding: 5px 5px 5px 20px;
@@ -809,8 +809,9 @@ label {
   .e-primary-btn.has-icon {
     padding: 5px 5px 5px 15px;
   }
-  e-primary-btn {
+  .e-primary-btn {
     font-size: 14px !important;
+    font-weight: 500;
   }
 }
 @media (min-width: 1200px) and (max-width: 1399px) {
