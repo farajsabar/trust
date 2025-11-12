@@ -3044,11 +3044,6 @@ label {
     padding-bottom: 140px;
   }
 }
-@media (max-width: 576px) {
-  .hero-side {
-    padding-top: 100px;
-  }
-}
 .hero-side .group-shape-1 {
   position: absolute;
   left: 0;
