@@ -438,7 +438,7 @@ label {
   margin-bottom: 30px;
 }
 .section-top-2 .left .common-subtitle span {
-  font-size: 34px;
+  font-size: 30px;
   font-weight: 500;
 }
 @media (min-width: 768px) and (max-width: 991px) {
@@ -4255,7 +4255,7 @@ label {
   font-size: 20px;
   line-height: 36px;
   color: var(--light-color);
-  margin-bottom: 6px;
+  margin-bottom: 10px;
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .project-card .thumb .content h5 {
@@ -4470,7 +4470,7 @@ label {
   display: flex;
   justify-content: space-between;
   align-items: end;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .section-top-2 {
@@ -5227,9 +5227,7 @@ display: inline-block;
     margin-bottom: 20px;
   }
 }
-.details-btn1 {
-  margin-bottom: 90px;
-}
+
 
 
 
@@ -5372,52 +5370,57 @@ display: inline-block;
   width: 90%;
   max-width: 1300px;
   margin: auto;
+  margin-bottom: 90px;
   text-align: center;
   padding: 94px 0;
 }
 
-.team-head h2 {
-  font-size: 32px;
-  font-weight: 600;
+.team-section .team-head h2 {
+  font-size: 30px;
+  font-weight: 500;
   margin-bottom: 10px;
 }
 
-.team-head p {
-  font-size: 15px;
+.team-section .team-head p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
   color: #666;
-  max-width: 650px;
+  max-width: 768px;
   margin: auto;
+  margin-bottom: 36px;
 }
 
-.team-container {
-  margin-top: 50px;
+.team-section .team-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 25px;
+  margin-bottom: 36px;
 }
 
-.team-card {
+.team-section .team-card {
   text-align: left;
 }
-.team-card p {
+.team-section .team-card p {
   border-top: 2px solid #eee;
 }
 
-.team-card img {
+.team-section .team-card img {
   width: 100%;
   height: 260px;
   object-fit: cover;
   border-radius: 5px;
 }
 
-.team-card h3 {
+.team-section .team-card h3 {
   font-size: 20px;
   font-weight: 500;
   margin-top: 15px;
 }
 
-.role {
+.team-section .team-card .role {
   font-size: 14px;
+  font-weight: 400;
   color: #777;
   margin-top: 5px;
 }
@@ -5475,27 +5478,27 @@ display: inline-block;
   /* max-width: 1300px; */
   /* margin: auto; */
   text-align: center;
-  padding: 60px 0;
+  padding:0 0 88px 0;
 }
 
-.events-head h2 {
+.events-section .events-head h2 {
   color: #ffffff;
   font-size: 30px;
   font-weight: 500;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
-.events-head p {
+.events-section .events-head p {
   font-size: 18px;
   font-weight: 400;
   line-height: 24px;
   color: #ffffff;
   max-width: 650px;
   margin: auto;
+  margin-bottom: 30px;
 }
 
-.events-container {
-  margin-top: 50px;
+.events-section .events-container {
   padding: 0 70px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -5507,7 +5510,7 @@ display: inline-block;
   }
 }
 
-.event-card {
+.events-section .event-card {
   text-align: left;
   background: #fff;
   border-radius: 8px;
@@ -5588,18 +5591,20 @@ display: inline-block;
   color: #444;
 }
 
-.event-card h3 {
-  font-size: 17px;
+.events-section .event-card h3 {
+  font-size: 20px;
   font-weight: 700;
   padding: 15px;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
-.desc {
+.events-section .desc {
   font-size: 14px;
+  font-weight: 400;
   color: #666;
   padding: 0 15px;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
+  line-height: 24px;
 }
 
 
@@ -5655,7 +5660,6 @@ display: inline-block;
 /* Section styling */
 .gallery-section {
   width: 100%;
-  padding: 40px 0;
   text-align: center;
 }
 
