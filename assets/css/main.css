@@ -4190,6 +4190,10 @@ label {
 .blog-card .content .title h3 a {
   font-size: 18px;
 }
+.blog-card .content .text {
+  font-size: 12px;
+  line-height: 24px;
+}
 }
 
 
