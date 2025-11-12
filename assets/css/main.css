@@ -5691,7 +5691,6 @@ display: inline-block;
   margin-bottom: 80px;
   text-align: center;
 }
-
 .gallery-section h2 {
   font-size: 30px;
   font-weight: 500;
@@ -5718,13 +5717,11 @@ display: inline-block;
     font-size: 24px;
     margin-bottom: 24px;
   }
-   .gallery-section .gallery-grid {
-        width: 100%;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr;
-        margin-bottom: 22px;
-        gap: 0;
-    }
+    .gallery-section .gallery-grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    gap: 0;
+  }
 }
 
 .gallery-item {
