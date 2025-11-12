@@ -5085,6 +5085,9 @@ display: inline-block;
 .about-three__round-text-box {
   left: -20px;
 }
+.about-three .tab-content p {
+  margin-bottom: 18px
+}
 }
 
 
