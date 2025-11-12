@@ -404,7 +404,7 @@ label {
   justify-content: center;
   font-size: 20px;
   line-height: 120%;
-  margin-bottom: 32px;
+  margin-bottom: 20px;
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .common-subtitle {
@@ -527,8 +527,8 @@ label {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  font-weight: 600;
-  font-size: 17px;
+  font-weight: 500;
+  font-size: 14px;
   line-height: 100%;
   color: var(--theme-color-3);
   padding: 16px 25px;
@@ -540,24 +540,25 @@ label {
 }
 @media (min-width: 1400px) and (max-width: 1700px) {
   .e-primary-btn {
-    font-size: 16px;
-    font-weight: 500;
+    font-size: 12px;
+    font-weight: 600;
   }
 }
 @media (min-width: 1200px) and (max-width: 1399px) {
   .e-primary-btn {
-    font-size: 14px;
-    font-weight: 500;
+    font-size: 12px;
+    font-weight: 600;
   }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
   .e-primary-btn {
-    font-size: 16px;
+    font-size: 12px;
+    font-weight: 600;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .e-primary-btn {
-    font-size: 16px;
+    font-size: 12px;
     line-height: 20px;
     gap: 8px;
     padding: 5px 5px 5px 20px;
@@ -3132,7 +3133,7 @@ label {
   font-style: normal;
   font-weight: 500;
   font-size: 48px;
-  line-height: 62px;
+  line-height: 100%;
   color: var(--light-color);
 }
 @media (min-width: 1200px) and (max-width: 1399px) {
@@ -3188,7 +3189,8 @@ label {
 }
 .hero-content-1 .text p {
   font-size: 18px;
-  line-height: 30px;
+  font-weight: 500;
+  line-height: 26px;
   color: var(--light-color);
 }
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -4239,6 +4241,7 @@ label {
   transition: all 0.3s;
   z-index: 10;
 }
+
 @media (max-width: 767px) {
   .project-card .thumb .content {
     padding: 12px 10px;
@@ -4252,7 +4255,7 @@ label {
   font-size: 20px;
   line-height: 36px;
   color: var(--light-color);
-  margin-bottom: 8px;
+  margin-bottom: 6px;
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .project-card .thumb .content h5 {
@@ -4277,6 +4280,8 @@ label {
   width: 90%;
   bottom: -100px;
   transition: all 0.3s;
+  font-size: 12px;
+  font-weight: 400;
 
 }
 .project-card .thumb .content .join-us {
@@ -4465,7 +4470,7 @@ label {
   display: flex;
   justify-content: space-between;
   align-items: end;
-  margin-bottom: 60px;
+  margin-bottom: 40px;
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .section-top-2 {
@@ -5178,7 +5183,7 @@ display: inline-block;
 
 
 .stats-section {
-  padding: 40px 0;
+  padding: 30px 0;
   text-align: center;
   background-color: #CFCFCF;
 }
@@ -5249,7 +5254,7 @@ display: inline-block;
 
 .about-section h2 {
   font-size: 30px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   font-weight: 500;
 }
 
@@ -5257,17 +5262,17 @@ display: inline-block;
   font-size: 20px;
   font-weight: 400;
   color: #555;
-  margin-bottom: 20px;
+  margin-bottom: 28px;
 }
 
-.tab-buttons {
+.about-section .tab-buttons {
   display: flex;
   gap: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 28px;
   flex-wrap: wrap;
 }
 
-.tab-btn {
+.about-section .tab-btn {
   background-color: transparent;
   border: 1px solid #ccc;
   border-radius: 25px;
@@ -5292,10 +5297,15 @@ display: inline-block;
   font-size: 14px;
   font-weight: 400;
   line-height: 22px;
+  margin-bottom: 28px;
 }
 
 .tab-content.active {
   display: block;
+}
+.about-section .e-primary-btn {
+  font-size: 12px;
+  font-weight: 400;
 }
 
 @keyframes fadeIn {
@@ -5470,13 +5480,15 @@ display: inline-block;
 
 .events-head h2 {
   color: #ffffff;
-  font-size: 32px;
-  font-weight: 600;
+  font-size: 30px;
+  font-weight: 500;
   margin-bottom: 10px;
 }
 
 .events-head p {
-  font-size: 15px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
   color: #ffffff;
   max-width: 650px;
   margin: auto;
