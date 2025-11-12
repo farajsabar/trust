@@ -5099,7 +5099,7 @@ display: inline-block;
 @media (max-width: 576px) {
   /* Section spacing and background */
   .what-we-do-section {
-    padding: 42px 0 !important;
+    padding: 24px 0 !important;
     background-size: cover;
     background-position: center;
     text-align: center;
