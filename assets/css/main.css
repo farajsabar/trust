@@ -5892,6 +5892,7 @@ display: inline-block;
   .team-section .team-head p {
     font-size: 16px;
     margin-bottom: 28px;
+    text-align: justify;
   }
   .team-section .team-head h2 {
     font-size: 24px;
