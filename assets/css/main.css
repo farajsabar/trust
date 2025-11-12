@@ -4187,6 +4187,9 @@ label {
 .blog-card .content .content-bottom .e-primary-btn {
   padding: 5px 5px 5px 10px;
 }
+.blog-card .content .title h3 a {
+  font-size: 18px;
+}
 }
 
 
