@@ -5643,6 +5643,10 @@ display: inline-block;
   .events-section .event-content h4 {
     font-size: 18px;
   }
+  .events-section .event-content p {
+    margin-bottom: 12px;
+    line-height: 24px;
+  }
 }
 
 /* min-width: 576px to max-width: 767.98px -> 2 columns */
