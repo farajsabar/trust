@@ -4181,7 +4181,12 @@ label {
   .latest-blog-section .latest-blog-content {
     margin-bottom: 30px;
   }
-
+  .latest-blog-section .blog-card .content {
+    padding: 25px 20px;
+  }
+.blog-card .content .content-bottom .e-primary-btn {
+  padding: 5px 5px 5px 10px;
+}
 }
 
 
@@ -4557,6 +4562,7 @@ label {
 @media (max-width: 576px) {
   .section-top-2 .left .common-title h2 {
   padding: 0 !important;
+  margin-bottom: 0 !important;
 }
 }
 .section-top-2 .right {
@@ -5289,11 +5295,10 @@ display: inline-block;
 
 
 
-.what-we-do-section .why-us-section .section-top-2 .left .common-subtitle span {
+.why-us-section .section-top-2 .left .common-subtitle span {
   font-size: 34px;
   font-weight: 500; 
 }
-.what-we-do-section.why-us-section .section-top-2 .left .common-title,
 .why-us-section .section-top-2 .left .common-title {
       font-size: 18px;
     font-weight: 400;
@@ -5304,16 +5309,20 @@ display: inline-block;
 }
 
 @media (max-width: 576px) {
- .what-we-do-section .why-us-section .section-top-2 .left .common-title {
+  .why-us-section .section-top-2 .left .common-subtitle span {
+    font-size: 28px;
+    font-weight: 500; 
+  }
+ .why-us-section .section-top-2 .left .common-title {
     font-size: 18px;
     font-weight: 400;
     text-align: start;
     padding: 0;
   }
-  .what-we-do-section .why-us-section .section-top-2 .left .common-title,  .what-we-do-section .why-us-section .section-top-2 {
+  .why-us-section .section-top-2 .left .common-title, .why-us-section .section-top-2 {
     margin-bottom: 0;
   }
-  .what-we-do-section .why-us-section .project-card {
+  .why-us-section .project-card {
     padding: 0 18px;
   }
 }
@@ -5878,7 +5887,7 @@ display: inline-block;
     padding: 42px 34px 24px;
   }
   .team-section .team-head p {
-    font-size: 14px;
+    font-size: 16px;
     margin-bottom: 28px;
   }
   .team-section .team-head h2 {
