@@ -5664,9 +5664,9 @@ display: inline-block;
 }
 
 .gallery-section h2 {
-  font-size: 26px;
+  font-size: 30px;
+  font-weight: 500;
   margin-bottom: 36px;
-  font-weight: 600;
 }
 
 /* Grid layout */
@@ -5724,9 +5724,6 @@ display: inline-block;
   background: #222;
   color: #fff;
 }
-
-    .gallery-section { padding: 30px 0 0; position: relative; }
-		.gallery-section h2 { margin-bottom: 20px; }
 
 		/* Force exactly 4 columns so 8 images render as 2 rows of 4 */
 		.gallery-grid {
