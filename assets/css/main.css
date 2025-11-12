@@ -5710,8 +5710,7 @@ display: inline-block;
 
 @media (max-width: 575.98px) {
   .gallery-section {
-    padding: 0 15px;
-    margin-bottom: 42px;
+    margin-bottom: 34px;
   }
   .gallery-section h2 {
     font-size: 24px;
@@ -5721,6 +5720,7 @@ display: inline-block;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto;
     gap: 0;
+    margin-bottom: 18px;
   }
 }
 
