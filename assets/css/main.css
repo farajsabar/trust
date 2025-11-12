@@ -3130,9 +3130,9 @@ label {
 }
 .hero-content-1 .title h1 {
   font-style: normal;
-  font-weight: 600;
-  font-size: 80px;
-  line-height: 82px;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 62px;
   color: var(--light-color);
 }
 @media (min-width: 1200px) and (max-width: 1399px) {
