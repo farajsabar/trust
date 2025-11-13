@@ -5439,10 +5439,11 @@ display: inline-block;
   line-height: 24px;
 }
 .about-section #mission p {
+  color: #000000a8;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
-  margin-bottom: 18px;
+  margin-bottom: 10px;
 }
 .about-section #mission ul {
   list-style: none;
@@ -5450,6 +5451,7 @@ display: inline-block;
   margin-bottom: 28px;
 }
 .about-section #mission ul li {
+  color: #5D5D5D;
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
@@ -5460,7 +5462,7 @@ display: inline-block;
     grid-template-columns: 1fr;
     margin-bottom: 16px;
   }
-  .abt-unique-para ul {
+  .abt-unique-para ul, .about-section #mission ul {
     margin-bottom: 20px;
   }  
 }
