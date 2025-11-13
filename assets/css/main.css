@@ -4306,7 +4306,10 @@ label {
 
 @media (max-width: 767px) {
   .project-card .thumb .content {
+    width: 100%;
+    bottom: 0;
     padding: 12px 10px;
+    transform: none;
   }
 }
 .project-card .thumb .content:hover {
@@ -5335,7 +5338,7 @@ display: inline-block;
     margin-bottom: 0;
   }
   .why-us-section .project-card {
-    padding: 0 18px;
+    margin: 0 18px;
   }
 }
 
@@ -5972,7 +5975,6 @@ display: inline-block;
   .team-section .team-head p {
     font-size: 16px;
     margin-bottom: 28px;
-    text-align: justify;
   }
   .team-section .team-head h2 {
     font-size: 24px;
