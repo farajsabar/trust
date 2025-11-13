@@ -412,7 +412,7 @@
     top: var(--swiper-pagination-top, auto);
     left: 0;
     width: 100%;
-        margin-bottom: 60px;
+        margin-bottom: 36px;
 }
 @media (max-width: 576px) {
     .swiper-horizontal>.swiper-pagination-bullets,
