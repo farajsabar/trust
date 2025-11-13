@@ -975,7 +975,7 @@ counters.forEach(counter => {
       setTimeout(animate, 10);
     } else {
       // Add suffix like + or %
-      if (value >= 10000) counter.innerText = "10K+";
+      if (value >= 3000) counter.innerText = "3K+";
       else if (value === 95) counter.innerText = "95%";
       else counter.innerText = value + "+";
     }
