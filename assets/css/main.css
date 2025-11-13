@@ -5337,9 +5337,9 @@ display: inline-block;
   .why-us-section .section-top-2 .left .common-title, .why-us-section .section-top-2 {
     margin-bottom: 0;
   }
-  .why-us-section .project-card {
+  /* .why-us-section .project-card {
     margin: 0 18px;
-  }
+  } */
 }
 
 
