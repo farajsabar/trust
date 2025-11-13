@@ -987,7 +987,9 @@ label {
     gap: 10px;
   }
 }
-
+.header-middle .main-menu-2 ul li a {
+  color: #ffffff;
+}
 .main-menu ul {
   list-style: none;
   margin: 0;
