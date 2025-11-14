@@ -5407,6 +5407,9 @@ display: inline-block;
     padding: 6px 14px !important;
     font-size: 12px !important;
   }
+  .about-section .tab-content {
+    height: 62vh;
+  }
 }
 
 .about-section h2 {
