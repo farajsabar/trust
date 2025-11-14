@@ -760,7 +760,7 @@ label {
     max-width: 60px;
 }
   .logo-wrap-2 {
-    padding: 10px 20px;
+    padding: 10px;
   }
 }
 @media (min-width: 576px) and (max-width: 767px) {
