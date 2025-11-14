@@ -5386,7 +5386,13 @@ display: inline-block;
     padding: 0 50px;
     margin: 0 0 44px;
   }
-@media (max-width: 576px) {
+@media (min-width: 576px) and (max-width: 767.98pxpx) {
+  .about-section .tab-content .scroll {
+    max-height: 232px;
+    overflow-y: auto;
+  }
+}
+@media (max-width: 575.98px) {
  .about-section {
     padding: 0;
     margin: 0 0 44px;
@@ -5409,6 +5415,10 @@ display: inline-block;
   }
   .about-section .tab-content {
     height: 40vh !important;
+  }
+  .about-section .tab-content .scroll {
+    max-height: 232px;
+    overflow-y: auto;
   }
 }
 
