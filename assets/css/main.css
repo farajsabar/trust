@@ -93,6 +93,37 @@ body {
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
 }
+/* Back to Top Button with Progress */
+#backToTop {
+	position: fixed;
+	right: 30px;
+	bottom: 30px;
+	z-index: 9999;
+	width: 48px;
+	height: 48px;
+	background: #000000;
+	border-radius: 50%;
+	box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	opacity: 0;
+	pointer-events: none;
+	transition: opacity 0.3s;
+}
+#backToTop svg {
+	position: absolute;
+	top: 0; left: 0;
+	width: 48px; height: 48px;
+	transform: rotate(-90deg);
+}
+#backToTop .icon {
+	font-size: 20px;
+	color: #FFE175;
+	z-index: 2;
+}
+
 
 img {
   max-width: 100%;

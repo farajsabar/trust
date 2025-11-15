@@ -1074,3 +1074,30 @@ buttons.forEach(btn => {
 
 
         
+
+(function(){                             // back to top
+	const btn = document.getElementById('backToTop');
+	const circle = btn.querySelector('circle');
+	const radius = circle.r.baseVal.value;
+	const circumference = 2 * Math.PI * radius;
+	circle.style.strokeDasharray = circumference;
+	circle.style.strokeDashoffset = circumference;
+
+	function setProgress() {
+		const scrollTop = window.scrollY || document.documentElement.scrollTop;
+		const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+		const percent = docHeight ? scrollTop / docHeight : 0;
+		circle.style.strokeDashoffset = circumference * (1 - percent);
+		if(scrollTop > 200){
+			btn.style.opacity = 1;
+			btn.style.pointerEvents = 'auto';
+		} else {
+			btn.style.opacity = 0;
+			btn.style.pointerEvents = 'none';
+		}
+	}
+	window.addEventListener('scroll', setProgress);
+	btn.addEventListener('click', function(){
+		window.scrollTo({top:0, behavior:'smooth'});
+	});
+})();
