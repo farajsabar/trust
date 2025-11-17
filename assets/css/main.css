@@ -6086,3 +6086,328 @@ display: inline-block;
 }
 
 
+
+
+
+
+    .volunteer-detail-card {
+    background: #f8f7f0;
+    border-radius: 10px;
+    padding: 20px;
+}
+.volunteer-detail-card .thumb a {
+    border-radius: 10px;
+    display: block;
+    overflow: hidden;
+}
+.volunteer-detail-card .thumb a img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+    .volunteer-detail-card .thumb .social-links {
+    margin-top: 10px;
+    padding: 22px;
+    text-align: center;
+    background: #004540;
+    backdrop-filter: blur(11.2px);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.volunteer-detail-card .thumb .social-links a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.4);
+    width: 40px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+}
+.volunteer-detail-card .thumb .social-links a:hover {
+    color: #ffffff;
+    background: #000000;
+}
+.volunteer-detail-content .content-wrap .subtitle {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #868681;
+    margin-bottom: 8px;
+}
+.volunteer-detail-content .content-wrap .title {
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 52px;
+    color: #004540;
+    margin-bottom: 12px;
+}
+.volunteer-detail-content .content-wrap p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #868681;
+}
+.volunteer-detail-content .details-wrap {
+    border-top: 1px solid rgba(0, 69, 64, 0.1);
+    border-bottom: 1px solid rgba(0, 69, 64, 0.1);
+    padding: 24px 0;
+    margin: 24px 0;
+}
+.volunteer-detail-content .details-wrap .info {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.volunteer-detail-content .details-wrap .info p {
+    font-family: var(--albert-sans-font);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #004540;
+    min-width: 105px;
+}
+.volunteer-detail-content .details-wrap .info span {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #868681;
+}
+.volunteer-detail-content .content-wrap .title.style-2 {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 48px;
+}
+.volunteer-detail-content .content-wrap .title {
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 52px;
+    color: #004540;
+    margin-bottom: 12px;
+}
+.volunteer-detail-content .content-wrap p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #868681;
+}
+/* 11 Camping Css */
+
+.contact-info-section {
+    position: relative;
+    z-index: 1;
+}
+
+.contact-info-layout {
+    background: #FFE175;
+    border-radius: 12px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: -45px;
+    margin-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.contact-info {
+    padding: 30px;
+    border-radius: 12px;
+
+    .icon-wrap {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+
+        .icon-shape {
+            flex: 1;
+            width: 100%;
+            height: 1px;
+            background: linear-gradient(90deg, rgba(0, 69, 64, 0) 0%, #004540 100%);
+        }
+
+        .icon {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            color: #004540;
+            background: #E5D170;
+            flex: none;
+        }
+    }
+
+    h3 {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 36px;
+        color: #004540;
+        margin-bottom: 10px;
+
+    }
+
+    p {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+        color: #004540;
+
+    }
+
+    &.active {
+        background: #004540;
+        transform: translateY(-20px);
+        box-shadow: 0px 33px 50.3px -27px rgba(0, 69, 64, 0.3);
+
+
+
+        .icon-wrap {
+            .icon-shape {
+                background: linear-gradient(90deg, rgba(0, 69, 64, 0) 0%, var(--theme-color-2) 100%);
+
+            }
+
+            .icon {
+                color: #004540;
+                background: #E5D170;
+            }
+        }
+
+        h3 {
+            color: #ffffff;
+        }
+
+        p {
+            color: #ffffff;
+        }
+    }
+    .contact-info.active .icon-wrap .icon-shape {
+    background: linear-gradient(90deg, rgba(0, 69, 64, 0) 0%, var(--theme-color-2) 100%) !important;
+}
+}
+
+.contact-form-wrap {
+    background: #f8f7f0;
+    border-radius: 24px;
+    padding: 40px 50px 50px;
+    text-align: center;
+
+    h3 {
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 60px;
+        color: #010a15;
+        margin-bottom: 7px;
+    }
+
+    p {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+        color: #868681;
+        margin-bottom: 32px;
+    }
+
+    .input-wrap {
+        input {
+            background: #ffffff;
+
+            &:focus {
+                background: #ffffff;
+            }
+        }
+
+        textarea {
+            background: #ffffff;
+
+            &:focus {
+                background: #ffffff;
+            }
+        }
+    }
+
+    .select-wrap {
+        select {
+            background: #ffffff;
+
+            &:focus {
+                background: #ffffff;
+            }
+        }
+    }
+}
+
+.contact-section {
+    position: relative;
+    z-index: 1;
+
+    .c-shape-1 {
+        position: absolute;
+        z-index: -1;
+        bottom: 0;
+        left: 0;
+    }
+
+    .c-shape-2 {
+        position: absolute;
+        z-index: -1;
+        bottom: 0;
+        right: 0;
+    }
+}
+
+.contact-map {
+    width: 100%;
+    height: 650px;
+
+    iframe {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.map-section {
+    margin-bottom: -165px;
+}
+@media (max-width: 991px) {
+    .contact-info-layout {
+        grid-template-columns: 1fr;
+        overflow: hidden;
+    }
+}
+@media (max-width: 767px) {
+    .contact-info-layout {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        margin-bottom: -24px;
+    }
+}
+@media (max-width: 767px) {
+    .contact-info.active {
+        transform: translateY(0);
+    }
+}
+@media (max-width: 767px) {
+    .contact-info h3 {
+        font-size: 18px;
+    }
+}
+@media (max-width: 767px) {
+    .contact-info p {
+        font-size: 16px;
+    }
+}
+@media (max-width: 767px) {
+	.contact-info {
+		padding: 20px;
+	}
+}
+
