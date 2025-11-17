@@ -2780,36 +2780,7 @@ label {
         height: 100%;
         object-fit: cover;
     }
-
-    .video-play-btn {
-        width: 100px;
-        height: 100px;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        color: light;
-        padding: 23px 21px;
-        border-radius: 100%;
-        border: 1px solid light;
-        font-weight: 500;
-        font-size: 25px;
-        line-height: 30px;
-        background: rgba(255, 255, 255, 0.015);
-        backdrop-filter: blur(28px);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        cursor: pointer;
-        animation: animate-pulse 3s linear infinite;
-
-        &:hover {
-            color: theme-color-3;
-            background: theme-color-2;
-            border-color: theme-color-2;
-        }
-    }
-}
+  }
 
 
 .breadcrumb-content {
