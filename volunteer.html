@@ -28,7 +28,6 @@
 	<link rel="stylesheet" href="assets/vendors/oxpins-icons/style.css">
 	<link rel="stylesheet" href="assets/css/custom-animate.css">
 </head>
-
 <body>
 
 <!-- header-section start -->
@@ -381,21 +380,6 @@ DONATE NOW
     margin-top: 20px;
     padding-left: 15px;
     padding-right: 15px;
-
-    @include mq(xs){
-        padding-top: 15px;
-        padding-bottom: 15px;
-    }
-
-    @include mq(md){
-        padding-top: 15px;
-        padding-bottom: 15px;
-    }
-
-    @include cmaq(991px) {
-        grid-template-columns: 1fr;
-        overflow: hidden;
-    }
 }
 
 .contact-info {
@@ -570,7 +554,7 @@ DONATE NOW
     .contact-info-layout {
         padding-top: 15px;
         padding-bottom: 15px;
-        margin-bottom: -8px;
+        margin-bottom: -24px;
     }
 }
 @media (max-width: 767px) {
@@ -589,14 +573,9 @@ DONATE NOW
     }
 }
 @media (max-width: 767px) {
-    .contact-info h3 {
-        font-size: 18px;
-    }
-}
-@media (max-width: 767px) {
-    .contact-info p {
-        font-size: 16px;
-    }
+	.contact-info {
+		padding: 20px;
+	}
 }
 
 
@@ -719,7 +698,7 @@ DONATE NOW
 
 <footer>
     <!-- footer-section start -->
-<footer class="footer-section footer-section-2 p-t-125 p-t-md-100 p-t-xs-30 p-b-50">
+<footer class="footer-section footer-section-2 p-t-125 p-t-md-100 p-t-xs-60 p-b-50">
 	<div class="container">
 		<div class="row justify-content-between row-gap-md-5 row-gap-4 p-b-xs-50 p-b-80">
 			<div class="col-xl-4 col-lg-8 col-md-7">
