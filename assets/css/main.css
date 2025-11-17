@@ -1767,7 +1767,7 @@ label {
 }
 }
 .header-bar-3 .bar {
-  background: var(--white-color);
+  background: grey;
   width: 22px;
   height: 2px;
   position: absolute;
