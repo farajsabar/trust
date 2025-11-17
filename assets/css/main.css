@@ -2813,6 +2813,7 @@ label {
     }
 }
 
+
 .breadcrumb-content {
     background-color: #004540;
     -webkit-background-size: cover;
@@ -2893,16 +2894,6 @@ label {
         margin: 0 0 20px;
         padding: 0;
 
-        @include mq(lg) {
-            margin-bottom: 10px;
-        }
-        @include mq(md) {
-            margin-bottom: 10px;
-        }
-        @include mq(xs) {
-            margin-bottom: 10px;
-        }
-
         li {
             display: inline-block;
             font-weight: 400;
@@ -2942,19 +2933,6 @@ label {
         line-height: 60px;
         color: #FFFFFF;
         margin-bottom: 0;
-
-        @include mq(lg) {
-            font-size: 40px;
-            line-height: 1.2;
-        }
-        @include mq(md) {
-            font-size: 32px;
-            line-height: 1.2;
-        }
-        @include mq(xs) {
-            font-size: 32px;
-            line-height: 1.2;
-        }
     }
 }
 @media (max-width: 767px) {
@@ -3013,6 +2991,13 @@ label {
       padding-top: 100px;
     }
   }
+  @media (min-width: 1400px) and (max-width: 1700px) {
+    .breadcrumb-content {
+        margin-right: -30px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
 
 
 
