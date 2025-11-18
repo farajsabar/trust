@@ -5982,7 +5982,7 @@ display: inline-block;
 /* Large Screen (above 992px) */
 @media (min-width: 992px) {
   .team-container {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
   }
 }
 
