@@ -2521,9 +2521,9 @@ label {
   }
 }
 .get-in-touch .footer-address .icon, .get-in-touch .email .icon, .get-in-touch .phone .icon {
-  width: 50px;
+  /* width: 50px;
   height: 50px;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.1); */
   border-radius: 100%;
   display: flex;
   justify-content: center;
@@ -2534,6 +2534,15 @@ label {
     width: 40px;
     height: 40px;
   }
+  .get-in-touch .icon i {
+  width: 50px;
+  height: 50px;
+  background-color: #183e2e;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 }
 .get-in-touch .footer-address .icon i, .get-in-touch .email .icon i, .get-in-touch .phone .icon i {
   color: var(--theme-color-2);
@@ -2559,6 +2568,26 @@ label {
   line-height: 28px;
   color: rgba(255, 255, 255, 0.8);
   text-transform: none;
+}
+.get-in-touch .icon i {
+  width: 48px;
+  height: 44px;
+  background-color: #183e2e;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media (min-width: 992px) and (max-width:1399) {
+  .get-in-touch .icon i {
+  width: 50px;
+  height: 50px;
+  background-color: #183e2e;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 }
 
 .footer-section-3 {
