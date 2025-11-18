@@ -1841,7 +1841,7 @@ label {
   position: fixed;
   top: 0;
   right: 0;
-  z-index: 2;
+  z-index: 9999;
 }
 
 .header-section-3 {
@@ -6368,8 +6368,8 @@ display: inline-block;
 
 
 
-
-.contact-section {
+/* contact us */
+.contact-section { 
     position: relative;
     z-index: 1;
 }
@@ -6433,4 +6433,36 @@ display: inline-block;
     bottom: -70px;
     left: 55%;
 }
+
+
+
+
+
+
+
+
+
+
+.services-section .common-title h2 {
+    font-size: 18px;
+    color: #5D5D5D;
+    padding: 0 132px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.services-section .project-card .thumb .content p {
+  margin-bottom: 14px;
+}
+.services-section .project-card .thumb .content {
+  text-align: center;
+}
+@media (max-width: 992px) {
+  .services-section .common-title h2 {
+  padding: 0;
+}
+}
+
+
+
+
 
