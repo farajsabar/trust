@@ -6328,7 +6328,7 @@ display: inline-block;
     }
 }
 
-.map-section {
+.contact-info-section .map-section {
     margin-bottom: -165px;
 }
 @media (max-width: 991px) {
