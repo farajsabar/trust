@@ -6460,6 +6460,9 @@ display: inline-block;
   .services-section .common-title h2 {
   padding: 0;
 }
+.services-section .project-card.style-service .thumb .content {
+    padding: 18;
+}
 }
 
 
