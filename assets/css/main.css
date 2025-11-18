@@ -2588,6 +2588,12 @@ label {
   align-items: center;
   justify-content: center;
 }
+@media (max-width:576px) {
+  .get-in-touch .icon i {
+    width: 48px;
+    height: 40px;
+  }
+}
 }
 
 .footer-section-3 {
