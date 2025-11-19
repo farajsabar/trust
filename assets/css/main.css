@@ -3956,6 +3956,11 @@ linear 0s;
     background-color: var(--white-color);
     box-shadow: 0 35px 41.5px -16px rgba(0, 69, 64, 0.08);
 }
+.blog-section .blog-card-2:hover .thumb img {
+    transform: scale(1.1);
+
+}
+
 .blog-card-2 .thumb {
     position: relative;
 }
