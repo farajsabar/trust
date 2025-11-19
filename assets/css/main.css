@@ -2828,14 +2828,16 @@ label {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-left: 180px;
-    padding-right: 100px;
+    /* padding-left: 180px;
+    padding-right: 100px; */
+    text-align: center;
+    padding: 60px;
     position: relative;
     z-index: 1;
-    border-radius: 10px 0 0 10px;
+    border-radius: 10px;
     overflow: hidden;
-    margin-right: -15px;
-    clip-path: polygon(0 0, 100% 0, 95% 100%, 0 100%);
+    /* margin-right: -15px; */
+    /* clip-path: polygon(0 0, 100% 0, 95% 100%, 0 100%); */
 
  
     .shape-1 {
@@ -2846,7 +2848,7 @@ label {
         z-index: -1;
     }
 
-    &:before {
+    /* &:before {
         content: "";
         height: 100%;
         width: 40px;
@@ -2857,7 +2859,7 @@ label {
         transform: skewX(-5deg);
 
        
-    }
+    } */
 }
 @media (max-width: 768px) {
       .breadcrumb-content:before {
@@ -2997,9 +2999,11 @@ label {
   }
   @media (min-width: 1400px) and (max-width: 1700px) {
     .breadcrumb-content {
-        margin-right: -30px;
+        /* margin-right: -30px;
         padding-left: 40px;
-        padding-right: 40px;
+        padding-right: 40px; */
+        padding: 60px;
+        margin: 0 14px;
     }
 }
 
