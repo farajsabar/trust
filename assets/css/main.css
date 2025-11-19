@@ -3940,6 +3940,100 @@ label {
   background: var(--theme-color-3);
 }
 
+
+.blog-section .blog-card-2 {
+    background-color: #f8f7f0;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0 4px 56.5px rgba(0, 0, 0, 0.06);
+    z-index: 1;
+    -webkit-transition: all 0.3s 
+linear 0s;
+    -o-transition: all 0.3s linear 0s;
+    transition: all 0.3s 
+linear 0s;
+}
+.blog-section .blog-card-2:hover {
+    background-color: var(--white-color);
+    box-shadow: 0 35px 41.5px -16px rgba(0, 69, 64, 0.08);
+}
+.blog-card-2 .thumb {
+    position: relative;
+}
+.blog-card-2 .thumb > a {
+    display: block;
+    border-radius: 10px 10px 0 0;
+    overflow: hidden;
+}
+.blog-card-2 .thumb > a img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+.blog-card-2 .content {
+    padding: 25px;
+}
+.blog-card-2 .content .author {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 5px;
+}
+.blog-card-2 .content .author .admin, .blog-card-2 .content .author .solar {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.blog-card-2 .content .author .solar {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.blog-card-2 .content .title h3 {
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 36px;
+    color: var(--theme-color-3);
+    margin-bottom: 5px;
+}
+.blog-card-2 .content .title h3 a {
+    color: var(--theme-color-3);
+}
+.blog-card-2 .thumb .event-date {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 80px;
+    padding: 4px 18px;
+    bottom: 10px;
+    right: 10px;
+    z-index: 2;
+    text-align: center;
+    border-radius: 4px;
+    background-color: var(--theme-color-3);
+}
+.blog-card-2 .thumb .event-date h2 {
+    color: var(--theme-color-2);
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 48px;
+    margin-bottom: 0;
+}
+.blog-card-2 .thumb .event-date h5 {
+    color: var(--light-color);
+    line-height: 22px;
+    margin-bottom: 4px;
+}
+
+
+
+
+
+
+
+
+
+
+
 /* 13 Event Css */
 .event-card {
   background: #f8f7f0;
