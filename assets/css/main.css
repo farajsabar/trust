@@ -5974,7 +5974,7 @@ display: inline-block;
   display: grid;
   gap: 25px;
   justify-content: center;
-  margin-bottom: 36px;
+  margin-bottom: 80px;
 }
 
 /* Default: Mobile (max-width 575.98px) */
@@ -6004,6 +6004,18 @@ display: inline-block;
 @media (min-width: 576px) and (max-width: 767.98px) {
   .team-container {
     grid-template-columns: repeat(2, 1fr);
+  }
+  .team-container-3 {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media(max-width: 575.98px) {
+  .team-container-3 {
+    display: grid !important;
+  }
+  .team-container-3 .team-card {
+    width: 100% !important;
   }
 }
 
@@ -6072,6 +6084,14 @@ display: inline-block;
 
 .team-btn button:hover {
   background: #333;
+}
+.team-container-3 {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+.team-container-3 .team-card {
+  width: 260px;
 }
 
 
