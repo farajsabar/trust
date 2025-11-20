@@ -7000,7 +7000,6 @@ display: inline-block;
     border: 1px solid var(--chioary-bdr-color);
 }
 
-.comment-form__input-box.text-message-box {}
 
 .comment-form__btn-box {
     position: relative;
@@ -7270,9 +7269,12 @@ display: inline-block;
         font-size: 35px;
         line-height: 45px;
     }
-        .blog-details__tag-list {
-        flex-direction: column;
+    .blog-details__tag-list {
+        display: grid;
+        grid-template-columns: repeat(2, 0.4fr);
+        gap: 10px;
     }
+
         .comment-one__content {
         margin-left: 0;
         margin-top: 15px;
