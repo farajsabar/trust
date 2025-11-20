@@ -1101,3 +1101,15 @@ buttons.forEach(btn => {
 		window.scrollTo({top:0, behavior:'smooth'});
 	});
 })();
+
+
+
+
+        // WhatsApp button scroll functionality
+        $(window).on('scroll', function() {
+            if ($(this).scrollTop() > 200) {
+                $('.whatsapp-float').addClass('show');
+            } else {
+                $('.whatsapp-float').removeClass('show');
+            }
+        });
