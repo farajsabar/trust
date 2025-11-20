@@ -1105,8 +1105,8 @@ buttons.forEach(btn => {
 
 
 
-// WhatsApp button scroll functionality
-$(window).on('scroll', function() {
+
+$(window).on('scroll', function() {   // WhatsApp button scroll functionality
     if ($(this).scrollTop() > 200) {
         $('.whatsapp-float').addClass('show');
     } else {
