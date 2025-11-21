@@ -1113,3 +1113,25 @@ $(window).on('scroll', function() {   // WhatsApp button scroll functionality
         $('.whatsapp-float').removeClass('show');
     }
 });
+
+
+
+
+
+
+
+
+
+document.addEventListener("scroll", function () {
+    let header = document.querySelector(".header-section");
+    let scrollY = window.scrollY;
+    let pageHeight = document.body.scrollHeight;
+
+    let triggerPoint = pageHeight * 0.12; // 20%
+
+    if (scrollY > triggerPoint) {
+        header.classList.add("show-header");
+    } else {
+        header.classList.remove("show-header");
+    }
+});
