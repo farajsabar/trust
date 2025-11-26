@@ -7447,12 +7447,10 @@ display: inline-block;
   }
 
   .tabs button {
-    width: 100%;
     text-align: center;
   }
 
   .gallery {
-    grid-template-columns: 1fr 1fr;
     gap: 10px;
   }
 }
