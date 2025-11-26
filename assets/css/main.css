@@ -7444,6 +7444,7 @@ display: inline-block;
   .tabs {
     gap: 8px;
     flex-wrap: nowrap;
+    justify-content: center;
   }
 
   .tabs button {
