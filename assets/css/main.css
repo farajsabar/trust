@@ -7447,6 +7447,7 @@ display: inline-block;
   }
 
   .tabs button {
+    padding: 6px 8px;
     text-align: center;
   }
 
