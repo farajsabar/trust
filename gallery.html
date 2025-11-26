@@ -521,53 +521,29 @@ DONATE NOW
 	</div>
 </footer>
 <!-- footer-section end -->
- <script>
-	document.addEventListener("DOMContentLoaded", function () {
+<script>
   const tabs = document.querySelectorAll(".tabs button");
-  const galleries = document.querySelectorAll(".gallery div");
+  const categories = document.querySelectorAll(".gallery > div");
 
-  // Show all images by default
-  document.querySelector(".category-all").style.display = "block";
-  document
-    .querySelectorAll(".gallery div:not(.category-all)")
-    .forEach((div) => {
-      div.style.display = "none";
-    });
+  tabs.forEach(btn => {
+    btn.addEventListener("click", () => {
+      // Remove old active
+      tabs.forEach(b => b.classList.remove("active"));
+      btn.classList.add("active");
 
-  tabs.forEach((tab) => {
-    tab.addEventListener("click", function () {
-      // Remove active class from all tabs
-      tabs.forEach((button) => button.classList.remove("active"));
+      const filter = btn.getAttribute("data-filter");
 
-      // Add active class to clicked tab
-      this.classList.add("active");
-
-      // Get the filter category from clicked tab
-      const filter = this.getAttribute("data-filter");
-
-      // Show/Hide gallery divs based on filter
-      if (filter === "all") {
-        document.querySelector(".category-all").style.display = "block";
-        document
-          .querySelectorAll(".gallery div:not(.category-all)")
-          .forEach((div) => {
-            div.style.display = "none";
-          });
-      } else {
-        document.querySelector(".category-all").style.display = "none";
-        galleries.forEach((gallery) => {
-          if (gallery.classList.contains(filter)) {
-            gallery.style.display = "block"; // Show matched category
-          } else {
-            gallery.style.display = "none"; // Hide non-matched category
-          }
-        });
-      }
+      categories.forEach(cat => {
+        if (cat.classList.contains(filter)) {
+          cat.style.display = "contents";
+        } else {
+          cat.style.display = "none";
+        }
+      });
     });
   });
-});
+</script>
 
- </script>
 
 <!-- Vendors Js -->
 <script src="assets/vendor/jquery/jquery.min.js"></script>
