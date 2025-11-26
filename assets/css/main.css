@@ -7377,26 +7377,37 @@ display: inline-block;
 }
 
 .tabs button {
+  position: relative;
   background: #000000;
-  color: #ffffff;
   border: none;
-  padding: 10px 18px;
+  padding: 10px 20px;
   cursor: pointer;
-  font-size: 14px;
-  border-radius: 4px;
-  transition: 0.3s;
-  border: 1px solid #000000;
-}
-
-.tabs button.active {
-  background: #000000;
   color: #ffffff;
 }
 
-.tabs button:hover {
-  background: #ffffff;
-  color: #000000;
+
+/* Base underline (hidden) */
+.tabs button::after {
+  content: "";
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background: #000000;
+  transition: width 0.3s ease;
 }
+
+/* Hover animation */
+.tabs button:hover::after {
+  width: 100%;
+}
+
+/* Active tab underline stays full */
+.tabs button.active::after {
+  width: 100%;
+}
+
 
 /* Gallery grid */
 .gallery {
