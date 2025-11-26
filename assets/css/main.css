@@ -7349,3 +7349,50 @@ display: inline-block;
   top: 0;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+/* Style for the gallery section */
+.gallery-section {
+  text-align: center;
+}
+.tabs {
+  margin-bottom: 20px;
+}
+.tabs button {
+  padding: 10px 20px;
+  margin-right: 10px;
+  cursor: pointer;
+  background-color: #f0f0f0;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+.tabs button.active {
+  background-color: #007bff;
+  color: white;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.gallery div {
+  display: none; /* Initially hidden, handled via JS */
+  margin: 10px;
+}
+.gallery img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 5px;
+}
