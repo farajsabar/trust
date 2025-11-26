@@ -7371,18 +7371,19 @@ display: inline-block;
 .tabs {
   display: flex;
   gap: 10px;
-  margin-bottom: 25px;
+  margin-bottom: 30px;
   flex-wrap: wrap;
   justify-content: center;
 }
 
 .tabs button {
   position: relative;
-  background: #000000;
+  background: #ffffff;
   border: none;
+  border-radius: 14px;
   padding: 10px 20px;
   cursor: pointer;
-  color: #ffffff;
+  color: #000000;
 }
 
 
