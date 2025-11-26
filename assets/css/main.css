@@ -7442,8 +7442,8 @@ display: inline-block;
 /* Responsive for small mobile */
 @media (max-width: 480px) {
   .tabs {
-    flex-direction: column;
     gap: 8px;
+    flex-wrap: nowrap;
   }
 
   .tabs button {
